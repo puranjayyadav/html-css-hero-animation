@@ -469,7 +469,7 @@ body {
     bottom: 0;
     height: 100%; }
   .banner .banner-bg {
-    background: #ffe5e5;
+    background-image: linear-gradient(90deg, #d9a7c7 0%, #fffcdc 100%);
     position: absolute;
     left: 0;
     right: 0;
@@ -557,7 +557,7 @@ body {
         .banner .banner-inner .content .image .image-inner img {
           width: 450px;
           position: absolute;
-          border-radius: 0;
+          bottom: 0;
           left: 0;
           right: 0;
           z-index: 9; }
