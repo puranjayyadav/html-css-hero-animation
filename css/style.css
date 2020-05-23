@@ -547,14 +547,14 @@ body {
           color: #233567; }
           .banner .banner-inner .content .content-inner .play-video span img {
             margin-right: 1rem; }
-      .banner .banner-inner .content .content-inner .image {
+      .banner .banner-inner .content .image {
         position: relative;
         width: 40%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-end; }
-        .banner .banner-inner .content .content-inner .image .image-inner img {
+        .banner .banner-inner .content .image .image-inner img {
           width: 450px;
           position: absolute;
           border-radius: 0;
@@ -562,9 +562,9 @@ body {
           right: 0;
           z-index: 9; }
           @media (max-width: 1440px) {
-            .banner .banner-inner .content .content-inner .image .image-inner img {
+            .banner .banner-inner .content .image .image-inner img {
               width: 400px; } }
-        .banner .banner-inner .content .content-inner .image .image-inner .feature-banner {
+        .banner .banner-inner .content .image .image-inner .feature-banner {
           position: absolute;
           bottom: 286px;
           left: -10px;
@@ -576,7 +576,7 @@ body {
           padding: 0 32px;
           border-radius: 4px;
           font-weight: 600; }
-          .banner .banner-inner .content .content-inner .image .image-inner .feature-banner.green {
+          .banner .banner-inner .content .image .image-inner .feature-banner.green {
             background: #76d8aa;
             right: 32px;
             left: auto;
