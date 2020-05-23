@@ -365,7 +365,7 @@ header {
       right: 0;
       display: flex;
       justify-content: center;
-      width: 50%;
+      width: 60%;
       margin: 0 auto; }
       header .container-fluid .header-inner .navigation nav ul {
         display: flex;
@@ -467,15 +467,15 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    height: 0; }
-  .banner .banner-background {
+    height: 100%; }
+  .banner .banner-bg {
     background: #ffe5e5;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    height: 0; }
+    height: 115%; }
   .banner .banner-inner {
     width: 100%;
     height: 80vh;
@@ -490,11 +490,11 @@ body {
       display: flex;
       align-items: center; }
       .banner .banner-inner .content .content-inner h1 {
-        font-family: 'Playfair Display';
+        font-family: "Playfair Display";
         color: #233567;
         font-size: 3.4rem;
         line-height: 4.8rem;
-        margin: 32px 0 0;
+        margin: 200px 50px 0;
         width: 620px; }
         @media (max-width: 1440px) {
           .banner .banner-inner .content .content-inner h1 {
@@ -502,7 +502,7 @@ body {
             line-height: 3.6rem; } }
         .banner .banner-inner .content .content-inner h1 .line {
           overflow: hidden;
-          height: 76px;
+          height: 70px;
           position: relative; }
           .banner .banner-inner .content .content-inner h1 .line span {
             position: absolute; }
@@ -512,24 +512,72 @@ body {
         font-weight: 300;
         color: #233567;
         width: 520px;
-        margin: 32px 0 80px; }
+        margin: 32px 50px 80px; }
         @media (max-width: 1440px) {
           .banner .banner-inner .content .content-inner p {
             margin: 16px 0 60px; } }
-      .banner .banner-inner .content .content-inner .btn-row a {
-        display: inline-block;
-        height: 56px;
-        line-height: 56px;
-        font-size: 1rem;
-        padding: 0 32px;
-        text-decoration: none;
-        font-weight: 600;
-        color: #ffffff;
-        background: #d57868;
-        border-radius: 100px; }
+      .banner .banner-inner .content .content-inner .btn-row {
+        position: absolute;
+        bottom: 0; }
+        .banner .banner-inner .content .content-inner .btn-row a {
+          display: inline-block;
+          height: 56px;
+          line-height: 56px;
+          font-size: 1rem;
+          padding: 0 32px;
+          text-decoration: none;
+          font-weight: 600;
+          color: #ffffff;
+          background: #d57868;
+          border-radius: 100px;
+          margin: 0 50px 0; }
       .banner .banner-inner .content .content-inner .play-video {
         position: absolute;
-        bottom: 0;
-        left: 0;
+        bottom: -91px;
+        left: 48px;
         border-radius: 4px 4px 0 0;
         overflow: hidden; }
+        .banner .banner-inner .content .content-inner .play-video span {
+          display: flex;
+          align-items: center;
+          height: 64px;
+          padding: 0 32px;
+          background: #ffffff;
+          font-weight: 600;
+          color: #233567; }
+          .banner .banner-inner .content .content-inner .play-video span img {
+            margin-right: 1rem; }
+      .banner .banner-inner .content .content-inner .image {
+        position: relative;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; }
+        .banner .banner-inner .content .content-inner .image .image-inner img {
+          width: 450px;
+          position: absolute;
+          border-radius: 0;
+          left: 0;
+          right: 0;
+          z-index: 9; }
+          @media (max-width: 1440px) {
+            .banner .banner-inner .content .content-inner .image .image-inner img {
+              width: 400px; } }
+        .banner .banner-inner .content .content-inner .image .image-inner .feature-banner {
+          position: absolute;
+          bottom: 286px;
+          left: -10px;
+          background: #315b96;
+          color: #ffffff;
+          height: 52px;
+          display: flex;
+          align-items: center;
+          padding: 0 32px;
+          border-radius: 4px;
+          font-weight: 600; }
+          .banner .banner-inner .content .content-inner .image .image-inner .feature-banner.green {
+            background: #76d8aa;
+            right: 32px;
+            left: auto;
+            bottom: 116px; }
